@@ -40,8 +40,8 @@ def turn(board, index)
   index=input_to_index
   if valid_move?(board, index)
     move(board, index)
-  puts display_board(board)
+  display_board(board)
   else
-    display_board(turn, board)
+    turn(board)
 end
 end
