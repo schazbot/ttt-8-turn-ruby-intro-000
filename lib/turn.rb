@@ -42,6 +42,6 @@ def turn(board, index)
     move(board, index)
   puts display_board(board)
   else
-    puts turn(board)
+    display_board(turn, board)
 end
 end
